@@ -1,0 +1,25 @@
+ 
+# URL: https://justin.abrah.ms/dotfiles/zsh.html
+#
+
+# NO '&' to add more options, like emL --deamon ... &
+
+alias emDef='emacs --no-init-file --title Defaults' # tmp
+alias emL='emacs -g 104x64+0+0 --no-splash'
+alias emR='emacs -g 124x52-0+0 --no-splash'
+
+alias muttnew='mutt -F ~/spam/muttrc'
+
+# for regex
+alias e='echo -e'
+alias x='grep -P'
+alias r='grep'
+
+#
+# merge with a2z / a2z.org
+#
+#alias ipy='jupyter qtconsole --style monokai --ConsoleWidget.font_size=12'
+alias ipython3='ipython3 --profile=py3'
+
+# vlcplay='vlc --playlist-autostart ./Desktop/houRBD.m3u &'
+alias vlcplay='vlc --playlist-autostart ' 

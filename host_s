@@ -1,0 +1,9 @@
+# 
+# URL: https://justin.abrah.ms/dotfiles/zsh.html
+#
+
+# houdini/sidefx
+if [ -d /opt/hfs ]; then
+    cd /opt/hfs/ && . houdini_setup_bash && cd ~
+fi
+
